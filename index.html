@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Oficina Santa Fé</title>
+    <link rel="canonical" href="https://oficinasantafe.online/">
+    <link rel="shortlink" href="https://oficinasantafe.online/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1696ca4aa5.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #eaeaea;
+            background: radial-gradient(circle, #eaeaea 0%, #fff 100%);
+        }
+
+        .main {
+            height: 100vh;
+            background: url('./assets/fundo.webp') no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .footer {
+            height: 10vh;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .list-items {
+            padding: 0;
+            justify-content: center;
+            margin: 0 -8px 0 -8px;
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+            box-sizing: border-box;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+        }
+
+        .list-items:nth-child(1) {
+            margin-bottom: 5px;
+        }
+
+        .list-item {
+            margin-right: 8px;
+            margin-left: 8px;
+            word-break: break-word;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            font-size: inherit;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            box-sizing: border-box;
+            border: 0;
+            outline: 0;
+            vertical-align: baseline;
+            background: transparent;
+        }
+
+        .list-item-icon {
+            --icon-margin: 0 calc(19px*0.125);
+            --icon-size: 19px;
+            text-align: center;
+            display: flex;
+            box-sizing: border-box;
+            color: #ff0000;
+            transition: fill 0.3s;
+            margin: var(--icon-margin,0 calc(var(--icon-size, 1em) * .25) 0 0);
+            width: var(--icon-size,1em);
+            height: var(--icon-size,1em);
+        }
+
+        .list-item-text {
+            color: #000;
+            transition: color 0.3s;
+            align-self: center;
+            padding-left: 5px;
+            font-family: "Poppins", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.2em;
+            margin-right: 10px;
+        }
+
+        @media (max-width: 767px) {
+            .main {
+                background-size: cover;
+            }
+
+            .list-item-icon > .list-item-text {
+                font-size: 14px;
+                line-height: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+    <div class="footer">
+        <div class="inner">
+            <ul class="list-items">
+                <li class="list-item">
+                    <span class="list-item-icon"><i class="fa-solid fa-screwdriver"></i></span>
+                    <span class="list-item-text">RAZÃO SOCIAL: AUTO CENTER RODRIGUES LTDA</span>
+                </li>
+                <li class="list-item">
+                    <span class="list-item-icon"><i class="fa-solid fa-screwdriver"></i></span>
+                    <span class="list-item-text">CNPJ: 13.293.758/0001-07</span>
+                </li>
+                <li class="list-item"><span class="list-text-spacer"></span></li>
+                <li class="list-item">
+                    <span class="list-item-icon"><i class="fa-solid fa-screwdriver"></i></span>
+                    <span class="list-item-text">FEIRA DE SANTANA - BA</span>
+                </li>
+            </ul>
+            <ul class="list-items">
+                <li class="list-item">
+                    <span class="list-item-icon"><i class="fa-solid fa-screwdriver"></i></span>
+                    <span class="list-item-text">CEP: 44.004-005</span>
+                </li>
+                <li class="list-item">
+                    <span class="list-item-icon"><i class="fa-solid fa-screwdriver"></i></span>
+                    <span class="list-item-text">(16) 99649-7362</span>
+                </li>
+                <li class="list-item">
+                    <span class="list-item-icon"><i class="fa-solid fa-screwdriver"></i></span>
+                    <span class="list-item-text">contato@oficinasantafe.online</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
